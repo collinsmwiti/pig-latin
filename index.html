@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <title>Pig Latin</title>
+  <div class="container">
+    <div class="form-wrapper">
+      <h3>Pig Latin</h3>
+      <form id="pig-latin">
+        <div class="form-group">
+          <label for="latin">Please enter the sentence:</label>
+          <input id="latin" type="text">
+        </div>
+        <button type="submit" class="btn" id="translate">Translate!</button>
+      </form>
+      <div id="result" style="margin-left: 10px">
+        <h4><span class="first-word"></span> translates to piglatin <i><span class="show"></span></i></h4>
+      </div>
+      <div class="error">
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
